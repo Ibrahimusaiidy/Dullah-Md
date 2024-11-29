@@ -34,16 +34,16 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*DULLAH MD 💥 AVAILABLE MENUS* 
+*MR B² MD 💥 AVAILABLE MENUS* 
 
 
     ▸ *commander* : ${cm.length} 
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *uptime* : ${os.platform()}
-    ▸ *theme* : *MR DULLA*
+    ▸ *theme* : *MR B²*
 
-> DULLAH MD 💥 WA BOT
-> POWERED BY MR DULLA 💎\n${readmore}`;
+> MR B² MD 💥 WA BOT
+> POWERED BY MR B² 💎\n${readmore}`;
     
 let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
@@ -54,21 +54,21 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Dullahmd*, déveloper Dullah md bot" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Mr b²md*, déveloper Mr b² md bot" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("💥💥 Menu erreur " + e);
+        repondre("💥💥 Menu erreur " + e);
     }
 } 
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *DULLAH MD 💥*, déveloper DULLAH MD BOT" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *MR B² MD 💥*, déveloper MR B² MD BOT" }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("💥💥 Menu erreur " + e);
+        repondre("💥💥 Menu erreur " + e);
     }
 } 
 else {
