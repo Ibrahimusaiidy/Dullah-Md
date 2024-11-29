@@ -30,7 +30,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 
         mode = "private";
 
-    }
+    } 
 
 
 
@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━ DULLAH MD BOT ━━┓
+┏━━ MR B² MD BOT ━━┓
 ┃ *my owner* : ${s.OWNER_NAME}
 ┃  ▸ *commander* : ${nomAuteurMessage} 
 ┃  ▸ *date *: ${date}
@@ -75,7 +75,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃  ▸ *plugin* : ${cm.length} 
 ┃  ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃  ▸ *running on* : ${os.platform()}
-┃  ▸ *theme* : *DULLAH*
+┃  ▸ *theme* : *MR B²*
 ┗━━━━━━━━━━━━━━━┛\n\n`;
 
 
@@ -83,14 +83,14 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━━━━━━━━━━━┓
-┣✣Dullah md  
-┣✣by Dullah Tech
+┣✣Mr b² md  
+┣✣by Mr b² Tech
 ┗━━━━━━━━━━━━━━┛\n
 
 
 
 
-Dullah md cmds𒈒
+Mr b² md cmds𒈒
 `;
 
 
@@ -117,13 +117,13 @@ Dullah md cmds𒈒
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣✣Dullah md bot 
-┣✣by Dullah Tech 
+️┣✣Mr b² md bot 
+┣✣by Mr b² Tech 
 ┗━━━━━━━━━━━━━━┛\n
 
 
 ┏━━━━━━━━━━━━━━┓
-┃▉ *powered by Dullah*
+┃▉ *powered by Mr b²*
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -145,9 +145,9 @@ Dullah md cmds𒈒
 
     catch (e) {
 
-        console.log("🥵🥵 Menu error " + e);
+        console.log("💥💥 Menu error " + e);
 
-        repondre("🥵🥵 Menu error " + e);
+        repondre("💥💥 Menu error " + e);
 
     }
 
@@ -165,9 +165,9 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     catch (e) {
 
-        console.log("🥵🥵 Menu error " + e);
+        console.log("💥💥 Menu error " + e);
 
-        repondre("🥵🥵 Menu error " + e);
+        repondre("💥💥 Menu error " + e);
 
     }
 
