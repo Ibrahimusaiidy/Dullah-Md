@@ -9,7 +9,7 @@ const conf = require("../set");
 zokou({
   'nomCom': "agents",
   'categorie': 'General',
-  'reaction': "🤙"
+  'reaction': "💥"
 }, async (_0x1b06c5, _0x54bb8b, _0x2358bf) => {
   const {
     ms: _0x2aecc0,
@@ -35,8 +35,8 @@ zokou({
     'nom': "Joel it🕷️ From Tanzania 🇹🇿",
     'numero': "255714595078"
   }, {
-    'nom': "Saidi b2 From Tanzania 🇹🇿",
-    'numero': "255628848298"
+    'nom': "Dullah From Tanzania 🇹🇿",
+    'numero': "255716945971"
   }, {
     'nom': "🤕",
     'numero': "load..."
@@ -50,13 +50,13 @@ zokou({
 'nom': "🤕",
     'numero': "Load...."
   }, {
-'nom': "DULLAH MD BOT From Tanzania 🇹🇿",
-    'numero': "255716945971"
+'nom': "Mr b² MD BOT From Tanzania 🇹🇿",
+    'numero "255628848298"
   }, {
     'nom': "🤕",
     'numero': "load...."
   }];
-  let _0x2d5c7e = "Hello👋  *I'm Dullah Md Bot* \nThe Following Numbers Are For  *DULLAH_MD* Agents, \nYou Can Ask Them Anything Regarding Dullah Bot \nFollow Our Channel For More Tech :https://whatsapp.com/channel/CP2BirU5pBj04cXXgEbfuv \n*KEEP USING DULLAH MD*:\n\n";
+  let _0x2d5c7e = "Hello👋  *I'm Mr b²😊 Md Bot* \nThe Following Numbers Are For  *Mr b²_MD* Agents, \nYou Can Ask Them Anything Regarding Dullah Bot \nFollow Our Channel For More Tech :https://whatsapp.com/channel/CP2BirU5pBj04cXXgEbfuv \n*KEEP USING DULLAH MD*:\n\n";
   for (const _0x14eeec of _0x21b56d) {
     _0x2d5c7e += "----------------\n(●) " + _0x14eeec.nom + " : https://wa.me/" + _0x14eeec.numero + "\n";
   }
