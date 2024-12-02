@@ -12,7 +12,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Fred1e/Dullah-Md"><b>Dullah Md</b></a> Support Deploy On...
+  <a href="https://github.com/Fred1e/Dullah-Md"><b>Mr b² Md</b></a> Support Deploy On...
 </p>
 
 <p align="center">
