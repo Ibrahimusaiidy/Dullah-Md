@@ -1,14 +1,14 @@
 {
-  "name": "DULLAH-MD V2",
-  "description": "This BOT was developed by Dullah.",
+  "name": "Mr b²-MD",
+  "description": "This BOT was developed by Mr b².",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/hegdag.jpg",
-  "repository": "https://github.com/Fred1e/DULLAH-MD",
+  "logo": "https://files.catbox.moe/50fkdj.jpg",
+  "repository": "https://github.com/Fred1e/Mr b²-MD",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -44,17 +44,17 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "DULLAH-MD 💥",
+      "value": "Mr b²-MD 💥",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/hegdag.jpg",
+      "value":"https://files.catbox.moe/50fkdj.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "yes",
+      "value": "no",
       "required": false 
     },
     "HEROKU_APY_KEY": {
@@ -75,12 +75,12 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "©MR DULLAH"
+      "value": "Mr b²"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "255716945971"
+      "value": "255628848298"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -99,7 +99,7 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "if you want to enable anti delete message put yes else put no",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "ANTICALL": {
